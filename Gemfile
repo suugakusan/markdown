@@ -28,6 +28,7 @@ gem 'turbolinks', '~> 5'
 gem 'bootsnap', '>= 1.4.4', require: false
 # マークダウン記法の文字列をHTMLに変換
 gem 'redcarpet'
+gem 'coderay'
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
